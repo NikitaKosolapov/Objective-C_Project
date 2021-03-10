@@ -11,7 +11,7 @@
 		1123B86025F2B7DC00E2FC7A /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123B85F25F2B7DC00E2FC7A /* City.m */; };
 		1123B86425F2B85800E2FC7A /* Airport.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123B86325F2B85800E2FC7A /* Airport.m */; };
 		1123B86925F2BAF400E2FC7A /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123B86825F2BAF400E2FC7A /* DataManager.m */; };
-		1123B86F25F2C95C00E2FC7A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123B86E25F2C95C00E2FC7A /* SecondViewController.m */; };
+		1123B86F25F2C95C00E2FC7A /* PlaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1123B86E25F2C95C00E2FC7A /* PlaceViewController.m */; };
 		115A296C25F2B19C00C25B8C /* Airports.json in Resources */ = {isa = PBXBuildFile; fileRef = 115A296925F2B19C00C25B8C /* Airports.json */; };
 		115A296D25F2B19C00C25B8C /* Cities.json in Resources */ = {isa = PBXBuildFile; fileRef = 115A296A25F2B19C00C25B8C /* Cities.json */; };
 		115A296E25F2B19C00C25B8C /* Countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 115A296B25F2B19C00C25B8C /* Countries.json */; };
@@ -31,8 +31,8 @@
 		1123B86325F2B85800E2FC7A /* Airport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Airport.m; sourceTree = "<group>"; };
 		1123B86725F2BAF400E2FC7A /* DataManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
 		1123B86825F2BAF400E2FC7A /* DataManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
-		1123B86D25F2C95C00E2FC7A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		1123B86E25F2C95C00E2FC7A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1123B86D25F2C95C00E2FC7A /* PlaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceViewController.h; sourceTree = "<group>"; };
+		1123B86E25F2C95C00E2FC7A /* PlaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceViewController.m; sourceTree = "<group>"; };
 		115A296925F2B19C00C25B8C /* Airports.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Airports.json; sourceTree = "<group>"; };
 		115A296A25F2B19C00C25B8C /* Cities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cities.json; sourceTree = "<group>"; };
 		115A296B25F2B19C00C25B8C /* Countries.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Countries.json; sourceTree = "<group>"; };
@@ -80,13 +80,13 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
-		1123B86C25F2C93F00E2FC7A /* SecondView */ = {
+		1123B86C25F2C93F00E2FC7A /* Place */ = {
 			isa = PBXGroup;
 			children = (
-				1123B86D25F2C95C00E2FC7A /* SecondViewController.h */,
-				1123B86E25F2C95C00E2FC7A /* SecondViewController.m */,
+				1123B86D25F2C95C00E2FC7A /* PlaceViewController.h */,
+				1123B86E25F2C95C00E2FC7A /* PlaceViewController.m */,
 			);
-			path = SecondView;
+			path = Place;
 			sourceTree = "<group>";
 		};
 		117E899725F29F7400CCC65A /* Application */ = {
@@ -113,7 +113,7 @@
 		117E89BB25F2A28800CCC65A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				1123B86C25F2C93F00E2FC7A /* SecondView */,
+				1123B86C25F2C93F00E2FC7A /* Place */,
 				117E89BC25F2A29C00CCC65A /* Main */,
 			);
 			path = Modules;
@@ -242,7 +242,7 @@
 				1123B85C25F2B65E00E2FC7A /* Country.m in Sources */,
 				1123B86925F2BAF400E2FC7A /* DataManager.m in Sources */,
 				11F3230B25EFFA9400031955 /* MainViewController.m in Sources */,
-				1123B86F25F2C95C00E2FC7A /* SecondViewController.m in Sources */,
+				1123B86F25F2C95C00E2FC7A /* PlaceViewController.m in Sources */,
 				1123B86425F2B85800E2FC7A /* Airport.m in Sources */,
 				11F3230525EFFA9400031955 /* AppDelegate.m in Sources */,
 				11F3231625EFFA9600031955 /* main.m in Sources */,
